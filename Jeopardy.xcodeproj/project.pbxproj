@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D863463416B64ACE005D3CBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D863463316B64ACE005D3CBC /* UIKit.framework */; };
+		D863463616B64ACE005D3CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D863463516B64ACE005D3CBC /* Foundation.framework */; };
+		D863463816B64ACE005D3CBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D863463716B64ACE005D3CBC /* CoreGraphics.framework */; };
+		D863463E16B64ACE005D3CBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D863463C16B64ACE005D3CBC /* InfoPlist.strings */; };
+		D863464016B64ACE005D3CBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D863463F16B64ACE005D3CBC /* main.m */; };
+		D863464416B64ACE005D3CBC /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D863464316B64ACE005D3CBC /* JPAppDelegate.m */; };
+		D863464616B64ACE005D3CBC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D863464516B64ACE005D3CBC /* Default.png */; };
+		D863464816B64ACE005D3CBC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D863464716B64ACE005D3CBC /* Default@2x.png */; };
+		D863464A16B64ACE005D3CBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D863464916B64ACE005D3CBC /* Default-568h@2x.png */; };
+		D863464D16B64ACF005D3CBC /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D863464C16B64ACF005D3CBC /* JPViewController.m */; };
+		D863465016B64ACF005D3CBC /* JPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D863464E16B64ACF005D3CBC /* JPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D863462F16B64ACE005D3CBC /* Jeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D863463316B64ACE005D3CBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D863463516B64ACE005D3CBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D863463716B64ACE005D3CBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D863463B16B64ACE005D3CBC /* Jeopardy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jeopardy-Info.plist"; sourceTree = "<group>"; };
+		D863463D16B64ACE005D3CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D863463F16B64ACE005D3CBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D863464116B64ACE005D3CBC /* Jeopardy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jeopardy-Prefix.pch"; sourceTree = "<group>"; };
+		D863464216B64ACE005D3CBC /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
+		D863464316B64ACE005D3CBC /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
+		D863464516B64ACE005D3CBC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D863464716B64ACE005D3CBC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D863464916B64ACE005D3CBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D863464B16B64ACE005D3CBC /* JPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
+		D863464C16B64ACF005D3CBC /* JPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
+		D863464F16B64ACF005D3CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D863462C16B64ACE005D3CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D863463416B64ACE005D3CBC /* UIKit.framework in Frameworks */,
+				D863463616B64ACE005D3CBC /* Foundation.framework in Frameworks */,
+				D863463816B64ACE005D3CBC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D863462416B64ACE005D3CBC = {
+			isa = PBXGroup;
+			children = (
+				D863463916B64ACE005D3CBC /* Jeopardy */,
+				D863463216B64ACE005D3CBC /* Frameworks */,
+				D863463016B64ACE005D3CBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D863463016B64ACE005D3CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D863462F16B64ACE005D3CBC /* Jeopardy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D863463216B64ACE005D3CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D863463316B64ACE005D3CBC /* UIKit.framework */,
+				D863463516B64ACE005D3CBC /* Foundation.framework */,
+				D863463716B64ACE005D3CBC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D863463916B64ACE005D3CBC /* Jeopardy */ = {
+			isa = PBXGroup;
+			children = (
+				D863464216B64ACE005D3CBC /* JPAppDelegate.h */,
+				D863464316B64ACE005D3CBC /* JPAppDelegate.m */,
+				D863464B16B64ACE005D3CBC /* JPViewController.h */,
+				D863464C16B64ACF005D3CBC /* JPViewController.m */,
+				D863464E16B64ACF005D3CBC /* JPViewController.xib */,
+				D863463A16B64ACE005D3CBC /* Supporting Files */,
+			);
+			path = Jeopardy;
+			sourceTree = "<group>";
+		};
+		D863463A16B64ACE005D3CBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D863463B16B64ACE005D3CBC /* Jeopardy-Info.plist */,
+				D863463C16B64ACE005D3CBC /* InfoPlist.strings */,
+				D863463F16B64ACE005D3CBC /* main.m */,
+				D863464116B64ACE005D3CBC /* Jeopardy-Prefix.pch */,
+				D863464516B64ACE005D3CBC /* Default.png */,
+				D863464716B64ACE005D3CBC /* Default@2x.png */,
+				D863464916B64ACE005D3CBC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D863462E16B64ACE005D3CBC /* Jeopardy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D863465316B64ACF005D3CBC /* Build configuration list for PBXNativeTarget "Jeopardy" */;
+			buildPhases = (
+				D863462B16B64ACE005D3CBC /* Sources */,
+				D863462C16B64ACE005D3CBC /* Frameworks */,
+				D863462D16B64ACE005D3CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jeopardy;
+			productName = Jeopardy;
+			productReference = D863462F16B64ACE005D3CBC /* Jeopardy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D863462616B64ACE005D3CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = TinyDragonApps;
+			};
+			buildConfigurationList = D863462916B64ACE005D3CBC /* Build configuration list for PBXProject "Jeopardy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D863462416B64ACE005D3CBC;
+			productRefGroup = D863463016B64ACE005D3CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D863462E16B64ACE005D3CBC /* Jeopardy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D863462D16B64ACE005D3CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D863463E16B64ACE005D3CBC /* InfoPlist.strings in Resources */,
+				D863464616B64ACE005D3CBC /* Default.png in Resources */,
+				D863464816B64ACE005D3CBC /* Default@2x.png in Resources */,
+				D863464A16B64ACE005D3CBC /* Default-568h@2x.png in Resources */,
+				D863465016B64ACF005D3CBC /* JPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D863462B16B64ACE005D3CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D863464016B64ACE005D3CBC /* main.m in Sources */,
+				D863464416B64ACE005D3CBC /* JPAppDelegate.m in Sources */,
+				D863464D16B64ACF005D3CBC /* JPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D863463C16B64ACE005D3CBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D863463D16B64ACE005D3CBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D863464E16B64ACF005D3CBC /* JPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D863464F16B64ACF005D3CBC /* en */,
+			);
+			name = JPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D863465116B64ACF005D3CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D863465216B64ACF005D3CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D863465416B64ACF005D3CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
+				INFOPLIST_FILE = "Jeopardy/Jeopardy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D863465516B64ACF005D3CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
+				INFOPLIST_FILE = "Jeopardy/Jeopardy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D863462916B64ACE005D3CBC /* Build configuration list for PBXProject "Jeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D863465116B64ACF005D3CBC /* Debug */,
+				D863465216B64ACF005D3CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D863465316B64ACF005D3CBC /* Build configuration list for PBXNativeTarget "Jeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D863465416B64ACF005D3CBC /* Debug */,
+				D863465516B64ACF005D3CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D863462616B64ACE005D3CBC /* Project object */;
+}
