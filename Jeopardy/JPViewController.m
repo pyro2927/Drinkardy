@@ -32,6 +32,23 @@
 //        add that label to our view
         [self.view addSubview:categoryLabel];
     }
+    
+//    create our button height
+    int buttonHeight = 108;
+//    add in our category buttons
+    for (int i = 0; i < [categories count]; i++) {
+        for (int j = 0; j < 5; j++) {
+//            create our new button with rounded corners
+            UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//            set the size
+            [button setFrame:CGRectMake(i * categoryWidth, 100 + buttonHeight * j, categoryWidth, buttonHeight)];
+//            add in our title (dollar amount)
+            [button setTitle:[NSString stringWithFormat:@"$%i", (j + 1) * 100] forState:UIControlStateNormal];
+//            add this button to our view
+            [self.view addSubview:button];
+        }
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning
